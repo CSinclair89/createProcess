@@ -1,6 +1,6 @@
 # Linux implementation of createProcess() system call
 This was a final project where we were free to choose any OS-related undertaking -- being unfamiliar with Linux, I chose to implement a basic system call in the kernel. 
-The full paper on the challenges throughout the project can be found here: http://chrisso.tv/pdf/createProcess.pdf
+The full paper on the challenges throughout the project can be found here: https://chrisso.tv/pdf/createProcess.pdf
 
 In short, a paper published in 2019, titled "A fork() in the road", suggests deprecating the fork() system call and either teaching around it, using alternatives, or implementing
 a modern Windows function that combines both fork() and its common counterpart, exec(). I took a stab at a very basic implementation of this and was able to print the output
