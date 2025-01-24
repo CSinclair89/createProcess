@@ -8,7 +8,7 @@ to the kernel log. Other additions not included in this repository are the updat
 this code is not a separate createProcess.c file, but rather sits comfortably inside the code of /kernel/fork.c.
 
 Remaining items that I may implement down the line:
-1. [ ] Update unistd.c/h on my local machine so I can simply call 'createProcess();' in the code so execute the system call.
+1. [ ] Update unistd.c/h on my local machine so I can simply call 'createProcess();' in the code to execute the system call.
 2. [ ] Add an input argument for the program to be executed (would need to be within struct size constraints, e.g. a string).
 
 It was a fun project that pushed me further into the direction of kernel development as well as the mechanics of the C programming language. Most of my more recent OS-related work
